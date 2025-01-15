@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsive</title>
+    <link rel="stylesheet" href="base-vs2.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="cv.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Claudia Muñoz</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Experiencia Laboral</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Formación Educativa</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <p>Hello, it's Me</p>
+            <h1>Claudia</h1>
+            <p>
+                Soy estudiante de Desarrollo de Aplicaciones Web, motivada y comprometida en aprender y crecer en el
+                mundo de la informática. Aunque aún no tengo experiencia profesional en este sector, mi trabajo como dependienta me ha
+                permitido desarrollar habilidades en trabajo en equipo, organización y resolución de problemas. Busco prácticas para aplicar 
+                mis conocimientos, ganar experiencia y seguir formándome en el área.
+            </p>
+            <div class="imagen-redonda">
+                <img src="foto-perfil.jpeg"> <!-- Imagen redonda -->
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div>
+                <img src="mida-foto-dni.jpeg" alt="Imagen de About" class="about-img">
+            </div>
+            <h2>About Me</h2>
+            <p>Descripción sobre mí</p>
+            <button id="MoreInfo">Mas sobre mí</button>
+            <div id="popup-MoreInfo" class="pop-More-Info">
+                <div class="popup-MoreInfo-content">
+                    <button class="close-btn-moreinfo" id="closeBtn-moreinfo">&times;</button>
+                    <p>
+                        Soy estudiante de un ciclo de Desarrollo de Aplicaciones Web, una persona alegre, motivada y
+                        comprometida, con muchas ganas de aprender y crecer en el mundo de la informática.
+                        <br>Aunque todavía no tengo experiencia profesional en este sector, he trabajado como dependienta, lo
+                        que me ha permitido desarrollar habilidades como el trabajo en equipo,
+                        la organización y la resolución de problemas de forma práctica. <br> Me gusta hacer las cosas bien, ser
+                        responsable y siempre terminar lo que empiezo.
+                        <br>Ahora mismo estoy buscando prácticas para aplicar lo que estoy aprendiendo, ganar experiencia y
+                        seguir formándome en informática.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Services Section -->
+        <section id="services" class="destacados">
+            <h2>Experiencia Laboral</h2>
+            <div class="lista-servicios">
+                <div class="servicio">
+                    <img src="sirena.png" alt="Servicio destacado 1">
+                    <h3>Dependienta y Reponedora</h3>
+                    <p>2024/2025 - ACTUAL <br> Empresa La Sirena</p>
+                </div>
+                <div class="servicio">
+                    <img src="sagales.jpg" alt="Servicio destacado 2">
+                    <h3>Comercialización de títulos de transporte</h3>
+                    <p>2023/24 Diciembre/Enero <br> Empresa Sagales</p>
+                </div>
+                <div class="servicio">
+                    <img src="clarel.jpeg" alt="Servicio destacado 3">
+                    <h3> Dependienta y Reponedora</h3>
+                    <p>2023 Julio/Agosto <br> Clarel </p>
+                </div>
+                <div class="servicio">
+                    <img src="dronics-practicas.jpg" alt="Servicio destacado 3">
+                    <h3> Practicas de Grado Medio </h3>
+                    <p>2021/2022 <br> Asesoría Aeronáutica | Dronics Tecnología y Entretenimiento S.L <br> Informàtica
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <p>Excelentes habilidades en ofimática, (Word, Excel...)</p>
+            <p>Capacidad de comunicación verbal y escrita, brindando un trato amable y cordial a los clientes y
+                compañeros de trabajo.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="destacados">
+            <h2>Formación Educativa</h2>
+            <div class="lista-servicios">
+                <div class="servicio">
+                    <img src="daw.jpg" alt="Servicio destacado 1">
+                    <h3>Desarrollo de aplicaciones web (DAW)</h3>
+                    <p>2023 - ACTUAL <br> BARCELONA - Escuela Jesuitas El Clot</p>
+                </div>
+                <div class="servicio">
+                    <img src="SMX.jpg" alt="Servicio destacado 2">
+                    <h3>Grado Medio Sistemas Microinformáticos y Redes </h3>
+                    <p>2020 - 2022 <br> Granollers - Carles Vallbona</p>
+                </div>
+                <div class="servicio">
+                    <img src="ESO.png" alt="Servicio destacado 3">
+                    <h3>Educación Secundaria Obligatoria (ESO) </h3>
+                    <p>2016 - 2020 <br> Granollers - Instituto Marta Estrada</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Puedes encontrarme en mis redes sociales o contactarme directamente:</p>
+            <div class="contacto">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/claudia-fu-mu%C3%B1oz-pin-kofuku/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Correo electrónico:</strong> <a href="mailto:clafudia.04@gmail.com">clafudia.04@gmail.com</a> </p>
+                    <p><strong>Teléfono:</strong> <span class="telefono-numero">+34 640 12 03 57</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Mi Curriculum.</p>
+    </footer>
+</body>
+
+</html>

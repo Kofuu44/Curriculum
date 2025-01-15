@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) { /*  pantallas pequeñas */
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .navbar .hamburger {
+        display: flex;
+    }
+
+    .navbar .nav-links.active {
+        display: flex;
+    }
+
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about div {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .popup-MoreInfo-content{
+        padding: 30px;
+    }
+
+    .close-btn-moreinfo{
+        font-size: 3px;
+        padding: 0px;
+    }
+
+    .lista-servicios {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1024px) {  /*  pantallas grandes */
+    #home p {
+        width: 55%;
+    }
+    #about h2 {
+        margin-left: -18%;
+    }
+    .about-img {
+        margin-left: 15%;
+    }
+}
